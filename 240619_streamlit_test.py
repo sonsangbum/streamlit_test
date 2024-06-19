@@ -23,5 +23,5 @@ if user_id=='ssb2001' and user_password == "1234" :
     image_files=["welcome.jpg","girl.png","star.png","cray.png","tree.jpg","moon.png"]
     sel_index = sel_options.index(user_opt)
     img_file = image_files[sel_index]
-    img_local = Image.open(f'240619_img/{img_file}')
+    img_local = Image.open(f'{img_file}')
     st.image(img_local, caption=user_opt)
